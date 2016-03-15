@@ -1,5 +1,6 @@
 <?php
 session_start();
+include("connect.php");
 /**
  * Created by PhpStorm.
  * User: p1400173
