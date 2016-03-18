@@ -33,7 +33,7 @@ $Courses=$DB->query($query)->fetchAll();?>
                     <div class="w3-col l9 m8 w3-container " style="background: white;padding-left: 0px !important;">
 
                         <div class="w3-dropdown-click" style="width: 100%">
-                            <button onclick="myFunction()" class="w3-btn w3-red ">Click Me to select your type of course!</button>
+                            <div onclick="myFunction()" class="w3-btn w3-red ">Click Me to select your type of course! <i class="fa fa-caret-down"></i></div>
                             <div id="Demo" class="w3-dropdown-content w3-card" style="z-index: 10;">
                                 <a class="w3-yellow" href="menu.php">ALL</a>
                                 <a href="menu.php?category=starters">Starters</a>
@@ -51,7 +51,7 @@ $Courses=$DB->query($query)->fetchAll();?>
 
                         <?php
                         foreach ($Courses as $row){
-                            echo '<div class="post w3-container w3-round w3-border w3-margin w3-dropdown-hover w3-row" style="width: 330px;height: 120px;float:left;">
+                            echo '<div class="post w3-container w3-round w3-border w3-margin w3-dropdown-hover w3-row" style="width: 340px; min-height: 120px;float:left;">
 
         <div class="w3-content w3-third" >
             <a href="#"><img src="images/15.jpg"></a>
