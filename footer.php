@@ -23,8 +23,6 @@
 					<p><span>tue.-wed.</span> 16:30 – 21:00</p>
 					<p><span>thu.-sat.</span> 16:30 – 21:00</p>
 					<p><span>sun.</span> 11:00 – 21:00</p>
-					<p><span>Need help getting home?</span></br>
-We will call a cab for you!</p>
 				</div>
 			</div>
 		</div>

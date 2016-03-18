@@ -1,4 +1,7 @@
-<?php include ("header.php")?>
+<?php
+define('SITE_URL', str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']));
+define('SITE_DIR', realpath(dirname(__FILE__)) . '/');
+ include ("header.php")?>
 	
 	<div class="zerogrid">
 		<div class="callbacks_container">

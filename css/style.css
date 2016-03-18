@@ -807,19 +807,17 @@ a.button.bt2 {}
     font-weight: bold;
 }
 
-#contact input {
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    color: #000;
-    border: 1px solid #654e2d;
-    padding: 13px;
-    margin: 5px 0 25px 0;
-    font-size: 16px;
-    max-height: 45px;
-}
+#contact input {display: block;
+width: 100%;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+color: #000;
+border: 1px solid #654e2d;
+padding: 13px;
+/* margin: 5px 0 25px 0; */
+font-size: 16px;
+max-height: 45px;}
 
 #contact textarea {
     display: block;
@@ -857,7 +855,6 @@ a.button.bt2 {}
     -webkit-box-shadow: 0px 25px 18px -26px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 25px 18px -26px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 25px 18px -26px rgba(0, 0, 0, 0.75);
-    padding: 20px 0 20px 30px;
 }
 
 .crumbs ul {

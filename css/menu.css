@@ -32,32 +32,24 @@ nav.cmn-tile-nav a {
   font-family: 'Goudy Bookletter 1911',Georgia,serif;
 }
 nav.cmn-tile-nav a:after,
-nav.cmn-tile-nav a:before {
-    content: '';
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 100%;
-	-webkit-transition: border 0.3s, -webkit-transform 0.3s;
-	-moz-transition: border 0.3s, -moz-transform 0.3s;
-	-o-transition: border 0.3s, -o-transform 0.3s;
-	transition: border 0.3s, transform 0.3s;
-}
-nav.cmn-tile-nav a:after {
-    border-left: 85px solid transparent;
-    right: 0px;
-}
-nav.cmn-tile-nav a:before {
-    border-right: 90px solid transparent;
-    left: 0px;
-}
-nav.cmn-tile-nav a:hover {
-  -webkit-transform: translateX(20px);
-  -moz-transform: translateX(20px);
-  -ms-transform: translateX(20px);
-  -o-transform: translateX(20px);
-  transform: translateX(20px);
-}
+nav.cmn-tile-nav a:before {content: '';
+position: absolute;
+height: 0;
+width: 0;
+top: 100%;
+-webkit-transition: border 0.3s, -webkit-transform 0.3s;
+-moz-transition: border 0.3s, -moz-transform 0.3s;
+-o-transition: border 0.3s, -o-transform 0.3s;
+transition: border 0.3s, transform 0.3s;}
+nav.cmn-tile-nav a:after {/* border-left: 85px solid transparent; */
+/* right: 0px; */}
+nav.cmn-tile-nav a:before {/* border-right: 90px solid transparent; */
+/* left: 0px; */}
+nav.cmn-tile-nav a:hover {-webkit-transform: translateX(20px);
+-moz-transform: translateX(20px);
+-ms-transform: translateX(20px);
+-o-transform: translateX(20px);
+transform: translateX(20px);}
 nav.cmn-tile-nav li.colour-1 {
   background-color: #E4000D;
 }
@@ -166,12 +158,8 @@ nav.cmn-tile-nav li.colour-7:hover a:after, nav.cmn-tile-nav li.colour-7:hover a
 nav.cmn-tile-nav li.colour-8 {
   background-color: #b72112;
 }
-nav.cmn-tile-nav li.colour-8 a:after,nav.cmn-tile-nav li.colour-8 a:before{
-   border-top: 27px solid #b72112;
-}
-nav.cmn-tile-nav li.colour-8 a {
-  background-color: #b72112;
-}
+nav.cmn-tile-nav li.colour-8 a:after,nav.cmn-tile-nav li.colour-8 a:before{border-top: 27px solid #b72112;}
+nav.cmn-tile-nav li.colour-8 a {background-color: #b72112;}
 nav.cmn-tile-nav li.colour-8:hover, nav.cmn-tile-nav li.colour-8:hover a {
   background-color: #7e1408;
 }
@@ -200,41 +188,29 @@ nav.cmn-tile-nav a {
   }
 }
 @media all and (min-width: 768px) {
-  nav.cmn-tile-nav li {
-    width: 25%;
-  }
-  nav.cmn-tile-nav a {
-    text-align: center;
-    padding: 60px 20px 20px 20px;
-  }
-  nav.cmn-tile-nav a:hover {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-    -webkit-transform: translateY(-20px);
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    -o-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
+  nav.cmn-tile-nav li {width: 16.6666vw;}
+  nav.cmn-tile-nav a {text-align: center;
+padding: 60px 20px 20px 20px;}
+  nav.cmn-tile-nav a:hover {-webkit-transform: translateX(0);
+-moz-transform: translateX(0);
+-ms-transform: translateX(0);
+-o-transform: translateX(0);
+transform: translateX(0);
+-webkit-transform: translateY(-20px);
+-moz-transform: translateY(-20px);
+-ms-transform: translateY(-20px);
+-o-transform: translateY(-20px);
+transform: translateY(-20px);}
 }
 @media all and (min-width: 1024px) {
-  nav.cmn-tile-nav li {
-    overflow: visible;
-    width: 12.5%;
-  }
-  nav.cmn-tile-nav a {
-    padding: 80px 20px 20px 20px;
-  }
-  nav.cmn-tile-nav a:hover {
-    -webkit-transform: translateY(20px);
-    -moz-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    -o-transform: translateY(20px);
-    transform: translateY(20px);
-  }
+  nav.cmn-tile-nav li {overflow: visible;
+width: 16.6666%;}
+  nav.cmn-tile-nav a {padding: 30px 20px 20px 20px;}
+  nav.cmn-tile-nav a:hover {-webkit-transform: translateY(20px);
+-moz-transform: translateY(20px);
+-ms-transform: translateY(20px);
+-o-transform: translateY(20px);
+transform: translateY(20px);}
 }
 /* ============================================================
   NAVIGATION TOGGLE
@@ -243,8 +219,8 @@ a.nav-toggle {
   display: block;
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #dce6f0;
-  color: #646464;
+  background-color: #b72112;
+  color: #fbfbfb;
   font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
 }

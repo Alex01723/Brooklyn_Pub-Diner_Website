@@ -99,23 +99,25 @@ if(isset($_POST['name']))
 		<ul class="clearfix">
 			<li class="colour-1"><a href="index.php">Home</a></li>
 			<li class="colour-2"><a href="menu.php">Menu</a></li>
-			<li class="colour-3"><a href="location.html">Location</a></li>
-			<li class="colour-4"><a href="archive.html">Blog</a></li>
-			<li class="colour-5"><a href="reservation.html">Reservation</a></li>
+			<li class="colour-3"><a href="location.php">Location</a></li>
+			<li class="colour-4"><a href="events.php">Blog</a></li>
+			<li class="colour-5"><a href="newsletter.php">Reservation</a></li>
 			<li class="colour-6"><a href="staff.html">Our Staff</a></li>
 			<li class="colour-7"><a href="news.html">News</a></li>
-			<li class="colour-8"><a href="gallery.html">Gallery</a></li>
+			<li class="colour-8"><a href="gallery.php">Gallery</a></li>
 		</ul>
     </nav>
 	
 <!--////////////////////////////////////Container-->
 <section id="container" class="sub-page">
 	<div class="wrap-container zerogrid">
-		<div class="crumbs">
+		<div style="padding: 20px 0 20px 30px;">
+			<div class="crumbs w3-hide-small">
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="reservation.html">Reservation</a></li>
+				<li><a href="newsletter.php">Reservation</a></li>
 			</ul>
+		</div>
 		</div>
 		<div id="main-content">
 			<div class="wrap-content">
