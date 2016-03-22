@@ -260,11 +260,26 @@ hr.line {
     opacity: 0.7;
 }
 
-header {
-    background: #E4000D url(../images/bg-header.png) repeat;
-    padding: 15px 0;
+#dammier{
+    background-image: url("../images/dammier.jpg");
+    background-repeat: repeat;
+    height: 10px;
+    background-size:contain;
 }
 
+#gradient-header {
+	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, yellow , red); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, yellow , red); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, yellow , red); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, yellow , red); /* Standard syntax */
+padding: 15px 0;}
+
+
+@font-face {
+    font-family: "Airstream";
+    src: url("../fonts/AIRSTEA.TTF");
+}
 .logo {
     display: inline-block;
 }
@@ -273,13 +288,27 @@ header {
     max-width: 210px;
 }
 
+.menu-card{
+    width: 340px;
+    min-height: 140px;
+    float:left;
+}
 .site-title {
     background-color: #000;
     color: #fff;
     position: relative;
     padding: 12px;
 }
-
+.title{
+    float: right;
+    position: relative;
+    right: 8%;
+    font-family: Airstream;
+    font-size: -webkit-xxx-large;
+    color: red;
+    margin-top: 70px;
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
 .site-title:after {
     content: '';
     background: url(../images/bg-1.png) repeat-x;

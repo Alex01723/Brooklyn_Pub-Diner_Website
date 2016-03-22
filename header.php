@@ -66,11 +66,20 @@ include("connect.php");
             </ul>
         </div>
     </div>
+    <br>
     <!--////////////////////////////////////Header-->
     <header>
-        <div class="zerogrid">
-            <center><div class="logo"><img src="images/logo.png"></div></center>
+        <div id="dammier"></div>
+        <div id="gradient-header">
+            <div class="zerogrid w3-center" style="text-align: center">
+                <div>
+                    <center><img class="w3-center" src="images/logo.png">
+                    <div class="w3-hide-small w3-center title"  >Brooklyn Pub & Diner</div></center>
+                </div>
+
+            </div>
         </div>
+        <div id="dammier"></div>
     </header>
     <div class="site-title">
         <div class="zerogrid">
@@ -82,7 +91,7 @@ include("connect.php");
     <!--//////////////////////////////////////Menu-->
     <a href="#" class="nav-toggle">Toggle Navigation</a>
     <nav class="cmn-tile-nav">
-        <ul class="clearfix">
+        <ul class="clearfix" style="font-family: Airstream">
             <li class="colour-1"><a href="index.php">Home</a></li>
             <li class="colour-2"><a href="menu.php">Menu</a></li>
             <li class="colour-3"><a href="location.php">Location</a></li>

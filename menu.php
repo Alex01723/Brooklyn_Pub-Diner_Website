@@ -23,11 +23,11 @@ $Courses=$DB->query($query)->fetchAll();?>
                 <div class="w3-row w3-border" style="overflow: hidden">
                     <div class="w3-col l3 m4 w3-container w3-red" style="margin-bottom: -100000px; padding-bottom: 100000px;">
                         <div style="text-align: center; color: white;">
-                            <h3>Formule du midi</h3>
-                                Bla Blah Bla<br>
-                                Bla Blah Bla<br>
-                                Bla Blah Bla<br>
-                                Bla Blah Bla<br>
+                            <h3 style="font-family: Airstream;color: white">Midday Meal</h3>
+                                Monday to Friday<br>
+                                salad, bagel, wrap or burger<br>
+                                + 1 drink<br>
+                                12,90€<br>
                         </div>
                     </div>
                     <div class="w3-col l9 m8 w3-container " style="background: white;padding-left: 0px !important;">
@@ -51,7 +51,7 @@ $Courses=$DB->query($query)->fetchAll();?>
 
                         <?php
                         foreach ($Courses as $row){
-                            echo '<div class="post w3-container w3-round w3-border w3-margin w3-dropdown-hover w3-row" style="width: 340px; min-height: 120px;float:left;">
+                            echo '<div class="post w3-container w3-round w3-border w3-margin w3-dropdown-hover w3-row menu-card">
 
                             <div class="w3-content w3-third" >
                                 <a href="#"><img src="images/15.jpg"></a>
