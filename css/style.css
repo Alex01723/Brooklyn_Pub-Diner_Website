@@ -293,21 +293,20 @@ padding: 15px 0;}
     min-height: 140px;
     float:left;
 }
+.title{
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 200px;
+    float: right;
+    margin-right: 5%;
+    background-size: contain;
+    background-position: center
+}
 .site-title {
     background-color: #000;
     color: #fff;
     position: relative;
     padding: 12px;
-}
-.title{
-    float: right;
-    position: relative;
-    right: 8%;
-    font-family: Airstream;
-    font-size: -webkit-xxx-large;
-    color: red;
-    margin-top: 70px;
-    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
 }
 .site-title:after {
     content: '';

@@ -24,7 +24,7 @@
 
 	if($event["date"]==null){
 		$date="";
-	}elseif($event["date"]<time()){
+	}elseif($event["date"]>time()){
 		$date="Planned on ".$formatedDate;
 	}else{
 		//L'événement est fini et il y avait une date

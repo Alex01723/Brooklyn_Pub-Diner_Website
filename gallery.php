@@ -47,13 +47,13 @@ $eventsDirectory = 'images/events/';?>
 							$extensionImages = array("png", "jpg", "gif", "bmp");
 							if (in_array(strtolower(pathinfo($entry, PATHINFO_EXTENSION)), $extensionImages)) { //Skips over . and ..
 								$firstImage = $dir . "/" . $entry;
-								echo("<div class=\"col-1-4\" >
-								<div class=\"zoom-container\">
+								echo("<div class=\"col-1-4\"  >
+								<div class=\"zoom-container\" style=\"height:200px\">
 								<a href=\"eventGallery.php?event=$eventName\">
 									<span class=\"zoom-caption\">
 										<span>$eventName</span>
 									</span>
-									<img src=\"$firstImage\" />
+									<img src=\"$firstImage\" style='height:200px ' />
 								</a>
 						</div>
 					</div>");

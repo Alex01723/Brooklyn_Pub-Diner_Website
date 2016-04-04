@@ -26,10 +26,10 @@ $photoDirectory=$eventsDirectory.$event;
                         $photo=$photoDirectory."/".$file;
                         preg_match("/(?<=\\*).*?(?=\\.)/",$file, $description);
                         echo("<div class=\"w3-third w3-row-padding w3-padding-8\">
-                                <div class=\"w3-card-2 w3-dropdown-hover\" style='position: relative'>
+                                <div class=\"w3-card-2 w3-dropdown-hover\" style='position: relative;max-height: 300px;max-width: 200px;float: left'>
                                     <img src=\" $photo\" style=\"width:100%\">
                                     <div class=\"w3-dropdown-content w3-border \" style=\"width:700px\"><br>
-                                        <img src=\"$photo\" alt=\"Norway\" style=\"width:100%\">
+                                        <img src=\"$photo\" alt=\"Norway\" style=\"max-width: 100%;max-height: 100%;\">
                                         <p>$description[0]</p>
                                         <a href='$photo'>Download</a>
 

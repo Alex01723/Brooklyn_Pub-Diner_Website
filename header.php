@@ -74,7 +74,7 @@ include("connect.php");
             <div class="zerogrid w3-center" style="text-align: center">
                 <div>
                     <center><img class="w3-center" src="images/logo.png">
-                    <div class="w3-hide-small w3-center title"  >Brooklyn Pub & Diner</div></center>
+                    <div class="w3-hide-small w3-center title" style='background-image: url("./images/titre.png")'></div></center>
                 </div>
 
             </div>
